@@ -11,7 +11,7 @@ from docx import Document
 
 st.set_page_config(page_title="AI Resume ATS Analyzer", page_icon="📄", layout="wide")
 
-MODEL_NAME = "gemini-3.6-flash""
+MODEL_NAME = "gemini-3.6-flash"
 
 
 def extract_pdf(data: bytes) -> str:
